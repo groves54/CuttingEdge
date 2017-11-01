@@ -123,3 +123,6 @@ C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\Cut
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.csproj.CoreCompileInputs.cache
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.dll
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.pdb
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.AddProductsTable.resources
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.csproj.GenerateResource.Cache
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.AddProductsTable1.resources
