@@ -1,10 +1,13 @@
-﻿@model IEnumerable <CuttingEdge.Models.Product>
+﻿@model CuttingEdge.Models.Product
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Cutting Edge Marketplace</h2>
+<p>
+    @Html.ActionLink("Add Video", "New")
+</p>
 <ul>
     @foreach (var product in Model)
     {

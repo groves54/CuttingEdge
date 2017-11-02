@@ -24,5 +24,11 @@ namespace CuttingEdge.Controllers
         {
             return View();
         }
+        public ActionResult Add(Product product)
+        {
+            _dbContext.Product.Add(product);
+            _dbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
