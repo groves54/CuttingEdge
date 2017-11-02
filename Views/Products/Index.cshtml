@@ -5,3 +5,9 @@
 }
 
 <h2>Cutting Edge Marketplace</h2>
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>@product.Title </li>
+    }
+</ul>

@@ -18,8 +18,11 @@ namespace CuttingEdge.Controllers
         public ActionResult Index()
         {
             var products = _dbContext.Product.ToList();
-            
             return View(products);
+        }
+        public ActionResult New()
+        {
+            return View();
         }
     }
 }

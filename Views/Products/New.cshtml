@@ -1,0 +1,29 @@
+﻿@model CuttingEdge.Models.Product
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>New</h2>
+
+@using (Html.BeginForm("Add", "Products", FormMethod.Post, new { @class = "form" }))
+{
+    <form action=”/products/add” method=”post” class=”form”>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Title)
+            @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Description)
+            @Html.TextAreaFor(m => m.Description, new { @class = "form-control", rows = 4 })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.price)
+            @Html.TextAreaFor(m => m.price, new { @class = "form-control" })
+        </div>
+
+    </form>
+}
