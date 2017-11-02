@@ -7,12 +7,15 @@
 <h2>Cutting Edge Marketplace</h2>
 
 <p>
-    @Html.ActionLink("Add Video", "New")
+    @Html.ActionLink("Add Product", "New")
 </p>
 
 <ul>
     @foreach (var product in Model)
     {
-        <li>@product.Title </li>
+        <li>@product.Title 
+            @Html.ActionLink("Edit", "Edit", new { id = product.Id }) 
+            @Html.ActionLink("Delete", "Delete", new { id = product.Id })
+        </li>
     }
 </ul>
