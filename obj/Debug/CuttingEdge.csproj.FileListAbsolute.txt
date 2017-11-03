@@ -132,3 +132,7 @@ C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\Cut
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\bin\CloudinaryDotNet.dll
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.AddAppointmentsTable.resources
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.UpdateAppointmentsTable.resources
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.EditDateTable.resources
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.EditTimeTable.resources
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.RemoveTime.resources

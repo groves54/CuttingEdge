@@ -1,0 +1,62 @@
+﻿@model IEnumerable<CuttingEdge.Models.Appointments>
+<head>
+    @Styles.Render("~/Content/css")
+</head>
+@{
+    ViewBag.Title = "Index";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cutting Edge Marketplace</h2>
+
+<p>
+    @Html.ActionLink("Input new request", "New")
+</p>
+<table>
+    <tr>
+        <th width=" 12%">
+            First Name
+        </th>
+        <th width=" 15%">
+            Last Name
+        </th>
+        <th width=" 10%">
+            Phone
+        </th>
+        <th width=" 15%">
+            Date
+        </th>
+        <th width=" 40%">
+            Description
+        </th>
+        <th width=" 10%">
+
+        </th>
+    </tr>
+
+    @foreach (var appointment in Model)
+    {
+        <tr>
+            <td>
+                @appointment.FirstName
+            </td>
+            <td>
+                @appointment.LastName
+            </td>
+            <td>
+                @appointment.Phone
+            </td>
+            <td>
+                @appointment.Date
+            </td>
+            <td>
+                @appointment.Description
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = appointment.Id }) ||
+                @Html.ActionLink("Delete", "Delete", new { id = appointment.Id })
+            </td>
+        </tr>
+    }
+</table>

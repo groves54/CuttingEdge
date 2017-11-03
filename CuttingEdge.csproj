@@ -207,6 +207,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AppointmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
@@ -224,6 +225,22 @@
     <Compile Include="Migrations\201711030151416_AddAppointmentsTable.cs" />
     <Compile Include="Migrations\201711030151416_AddAppointmentsTable.Designer.cs">
       <DependentUpon>201711030151416_AddAppointmentsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711030247141_UpdateAppointmentsTable.cs" />
+    <Compile Include="Migrations\201711030247141_UpdateAppointmentsTable.Designer.cs">
+      <DependentUpon>201711030247141_UpdateAppointmentsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711030306234_EditDateTable.cs" />
+    <Compile Include="Migrations\201711030306234_EditDateTable.Designer.cs">
+      <DependentUpon>201711030306234_EditDateTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711030311424_EditTimeTable.cs" />
+    <Compile Include="Migrations\201711030311424_EditTimeTable.Designer.cs">
+      <DependentUpon>201711030311424_EditTimeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711030318122_RemoveTime.cs" />
+    <Compile Include="Migrations\201711030318122_RemoveTime.Designer.cs">
+      <DependentUpon>201711030318122_RemoveTime.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -310,6 +327,12 @@
     <Content Include="Views\Products\_ProductsForm.cshtml" />
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Delete.cshtml" />
+    <Content Include="Views\Appointment\Index.cshtml" />
+    <Content Include="Views\Appointment\Delete.cshtml" />
+    <Content Include="Views\Appointment\Edit.cshtml" />
+    <Content Include="Views\Appointment\New.cshtml" />
+    <Content Include="Views\Appointment\_AppointmentsForm.cshtml" />
+    <Content Include="Views\Home\NotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -328,6 +351,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711030151416_AddAppointmentsTable.resx">
       <DependentUpon>201711030151416_AddAppointmentsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711030247141_UpdateAppointmentsTable.resx">
+      <DependentUpon>201711030247141_UpdateAppointmentsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711030306234_EditDateTable.resx">
+      <DependentUpon>201711030306234_EditDateTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711030311424_EditTimeTable.resx">
+      <DependentUpon>201711030311424_EditTimeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711030318122_RemoveTime.resx">
+      <DependentUpon>201711030318122_RemoveTime.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

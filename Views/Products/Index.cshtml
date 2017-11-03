@@ -11,38 +11,22 @@
 <p>
     @Html.ActionLink("Add Product", "New")
 </p>
-<table>
-    <tr>
-        <th width=" 20%">
-            Item
-        </th>
-        <th width=" 60%">
-            Description
-        </th>
-        <th width=" 10%">
-            Price
-        </th>
-        <th width=" 10%">
-    
-        </th>
-    </tr>
 
+
+
+<div class="row">
     @foreach (var product in Model)
     {
-        <tr>
-            <td>
-                @product.Title
-            </td>
-            <td>
+        <div class="col-md-4">
+            <h2>@product.Title</h2>
+            <p>
                 @product.Description
-            </td>
-            <td>
-                @product.price
-            </td>
-            <td>
-            @Html.ActionLink("Edit", "Edit", new { id = product.Id }) ||
-            @Html.ActionLink("Delete", "Delete", new { id = product.Id })
-            </td>
-        </tr>
+            </p>
+            <p>@product.price</p>
+            <p>
+             @Html.ActionLink("Edit", "Edit", new { id = product.Id }) ||
+             @Html.ActionLink("Delete", "Delete", new { id = product.Id })
+            </p>
+    </div>
     }
-</table>
+</div>

@@ -22,6 +22,8 @@ namespace CuttingEdge.Models
     {
         public DbSet<Product> Product { get; set; }
         public DbSet<Appointments> Appointments { get; set; }
+        public object Appointment { get; internal set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {

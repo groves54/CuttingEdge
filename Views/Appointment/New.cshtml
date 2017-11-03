@@ -1,0 +1,15 @@
+﻿@model CuttingEdge.Models.Appointments
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>New</h2>
+
+
+@using (Html.BeginForm("Add", "Appointment", FormMethod.Post, new { @class = "form" }))
+{
+
+    Html.RenderPartial("_AppointmentsForm");
+
+}
