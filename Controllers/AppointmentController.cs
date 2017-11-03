@@ -16,6 +16,7 @@ namespace CuttingEdge.Controllers
             _dbContext = new ApplicationDbContext();
         }
         // GET: Appointment
+        [Authorize]
         public ActionResult Index()
         {
             var appointments = _dbContext.Appointments.ToList();
@@ -30,7 +31,7 @@ namespace CuttingEdge.Controllers
         {
             _dbContext.Appointments.Add(appointment);
             _dbContext.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("ThankYou");
         }
         public ActionResult Edit(int id)
         {
