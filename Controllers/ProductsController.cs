@@ -24,13 +24,15 @@ namespace CuttingEdge.Controllers
         {
             return View();
         }
-        [Authorize] public ActionResult Add(Product product)
+        [Authorize]
+        public ActionResult Add(Product product)
         {
             _dbContext.Product.Add(product);
             _dbContext.SaveChanges();
             return RedirectToAction("Index");
         }
-        [Authorize] public ActionResult Edit(int id)
+        [Authorize]
+        public ActionResult Edit(int id)
         {
             var product = _dbContext.Product.SingleOrDefault(p => p.Id == id);
 
@@ -40,7 +42,8 @@ namespace CuttingEdge.Controllers
             return View(product);
         }
         [HttpPost]
-        [Authorize] public ActionResult Update(Product product)
+        [Authorize]
+        public ActionResult Update(Product product)
         {
             var productInDb = _dbContext.Product.SingleOrDefault(p => p.Id == product.Id);
 
