@@ -126,3 +126,9 @@ C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\Cut
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.AddProductsTable.resources
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.csproj.GenerateResource.Cache
 C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.AddProductsTable1.resources
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\bin\CloudinaryDotNet.dll
+C:\Users\Bryan\Desktop\Fall 2017\Software Engineering\CuttinEdge\CuttingEdge\CuttingEdge\obj\Debug\CuttingEdge.Migrations.AddAppointmentsTable.resources

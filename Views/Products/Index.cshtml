@@ -1,6 +1,8 @@
 ﻿@model IEnumerable<CuttingEdge.Models.Product>
+<head>@Styles.Render("~/Content/css")</head>
 @{
     ViewBag.Title = "Index";
+    
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -9,13 +11,38 @@
 <p>
     @Html.ActionLink("Add Product", "New")
 </p>
+<table>
+    <tr>
+        <th width=" 20%">
+            Item
+        </th>
+        <th width=" 60%">
+            Description
+        </th>
+        <th width=" 10%">
+            Price
+        </th>
+        <th width=" 10%">
+    
+        </th>
+    </tr>
 
-<ul>
     @foreach (var product in Model)
     {
-        <li>@product.Title 
-            @Html.ActionLink("Edit", "Edit", new { id = product.Id }) 
+        <tr>
+            <td>
+                @product.Title
+            </td>
+            <td>
+                @product.Description
+            </td>
+            <td>
+                @product.price
+            </td>
+            <td>
+            @Html.ActionLink("Edit", "Edit", new { id = product.Id }) ||
             @Html.ActionLink("Delete", "Delete", new { id = product.Id })
-        </li>
+            </td>
+        </tr>
     }
-</ul>
+</table>

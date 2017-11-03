@@ -21,6 +21,7 @@ namespace CuttingEdge.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Product> Product { get; set; }
+        public DbSet<Appointments> Appointments { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
@@ -30,5 +31,9 @@ namespace CuttingEdge.Models
         {
             return new ApplicationDbContext();
         }
+    }
+
+    public class Appointment
+    {
     }
 }
