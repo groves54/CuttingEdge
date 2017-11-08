@@ -13,7 +13,7 @@
     <li>Title:       @Model.Title</li>
     <li>Description: @Model.Description</li>
 </ul>
-@using (Html.BeginForm("DoDelete", "Videos", FormMethod.Post))
+@using (Html.BeginForm("DoDelete", "Products", FormMethod.Post))
 {
 
     @Html.HiddenFor(m => m.Id)

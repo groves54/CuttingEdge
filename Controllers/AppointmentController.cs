@@ -78,5 +78,9 @@ namespace CuttingEdge.Controllers
             _dbContext.SaveChanges();
             return RedirectToAction("Index");
         }
+        public ActionResult ThankYou()
+        {
+            return View();
+        }
     }
 }

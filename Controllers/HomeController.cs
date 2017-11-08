@@ -26,5 +26,10 @@ namespace CuttingEdge.Controllers
 
             return View();
         }
+
+        public ActionResult NotFound()
+        {
+            return View();
+        }
     }
 }
